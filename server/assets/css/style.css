@@ -1,0 +1,135 @@
+:root{
+    --green-color:#2e59d9;
+}
+.navbar-left{
+    background-color: var(--green-color) !important;
+}
+.wrapper-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wrapper-content-add-product{
+    display: block;
+    color: white;
+    padding: 10px 15px;
+    background-color: var(--green-color);
+    border-radius: 5px;
+
+}
+.wrapper-content-item{
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;  
+}
+.wrapper-content-item-img{
+    padding-top: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+
+}
+.wrapper-content-item-title{
+    font-size: 1.7rem;
+    line-height: 2rem;
+    height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--green-color);
+    margin: 10px 0;
+}
+.wrapper-content-item-price{
+    font-size: 1.4rem;
+}
+.wrapper-content-item-link{
+    display: flex;
+    justify-content: space-evenly;
+}
+.wrapper-content-item-link a{
+    color: white;
+    padding: 5px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.wrapper-content-item-link a:hover{
+    text-decoration: none;
+    
+}
+.wrapper-content-item-link-edit{
+    background-color: #2e59d9;
+}
+.wrapper-content-item-link-delete{
+    background-color: red;
+}
+.text-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.text-field label {
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: #f8f9fc;
+    padding: 1px 5px;
+    font-size: 12px;
+    transform: translateY(-50%);
+    color: var(--green-color);
+}
+
+.text-field input,.text-field textarea {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid var(--green-color);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--green-color);
+    outline: none;
+}
+.wrapper-content-list-form-name{
+    text-align: center;
+}
+.wrapper-content-list-img{
+    margin: 0 10px;
+    padding: 9px;
+    border: 1px solid var(--green-color);
+    border-radius: 5px;
+}
+.wrapper-content-list-img-background{
+    position: relative;
+}
+.wrapper-content-list-img-background img{
+    width: 100%;
+    border-radius: 5px;
+}
+.wrapper-content-btn-submit{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.wrapper-content-btn-submit button{
+    padding: 8px 10px;
+    color: white;
+    background-color: var(--green-color);
+    font-size: 1.6rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.wrapper-content-btn-submit a{
+    display: inline-block;
+    padding: 8px 10px;
+    color: white;
+    background-color: #9d9d9d;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    font-weight: bold;
+}
